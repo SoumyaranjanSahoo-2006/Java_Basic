@@ -6,3 +6,4 @@ class Number{
         }
     }
 }
+//here is the main
