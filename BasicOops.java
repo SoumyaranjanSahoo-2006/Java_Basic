@@ -14,3 +14,25 @@ class Main{
         s1.studentData();
     }
 }
+
+
+
+//Encapsulation- Datahiding
+class Account{
+    private int balance=5000;
+
+    public int getBalance(){
+        return balance;
+    }
+
+    public void setBalance(int ammount){
+        balance = ammount;
+    }
+}
+class AccountMain{
+    public static void main(String[]args){
+        Account ac=new Account();
+        ac.setBalance(7000);
+        System.out.println(ac.getBalance());
+    }
+}
