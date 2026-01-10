@@ -36,3 +36,24 @@ class AccountMain{
         System.out.println(ac.getBalance());
     }
 }
+
+
+//inheritance-parent,child
+class Animal{
+    void eat(){
+        System.out.println("Eating--");
+    }
+}
+class Dog extends Animal{
+    void bark(){
+        System.out.println("Barking--");
+    }
+}
+
+class MainAnimal{
+    public static void main(String[]args){
+        Dog dg=new Dog();
+        dg.bark();
+        dg.eat();
+    }
+}
