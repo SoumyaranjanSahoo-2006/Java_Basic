@@ -57,3 +57,17 @@ class MainAnimal{
         dg.eat();
     }
 }
+
+
+/* Create a class Car with variables brand and price.
+Create an object and print details. */
+
+class Car{
+    String brand= "Audi";
+    int price= 100000;
+    public static void main(String[]args){
+        Car c1= new Car();
+        System.out.println(c1.brand);
+        System.out.println(c1.price);
+    }
+}
