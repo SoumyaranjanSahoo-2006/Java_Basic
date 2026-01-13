@@ -1,4 +1,5 @@
-class Student{
+import java.util.Scanner;
+class Students{
     int id;
     String name;
     void studentData(){
@@ -8,7 +9,7 @@ class Student{
 }
 class Main{
     public static void main(String[]args){
-        Student s1=new Student();
+        Students s1=new Students();
         s1.id=1;
         s1.name="Soumya";
         s1.studentData();
@@ -69,5 +70,32 @@ class Car{
         Car c1= new Car();
         System.out.println(c1.brand);
         System.out.println(c1.price);
+    }
+}
+
+
+/* Create a class Student with name and rollNo.
+Input values and display them. */
+
+
+class Student{
+
+    String name;
+    int rollNo;
+   public void display(){
+    System.out.println("Student name is "+name);
+    System.out.println("Student rollNo is "+rollNo);
+   } 
+}
+
+class StudentMain{
+    public static void main(String[]args){
+        Student s1=new Student();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        s1. name=sc.nextLine();
+        System.out.println("Enter your RollNo:");
+        s1.rollNo=sc.nextInt();
+        s1.display();
     }
 }
