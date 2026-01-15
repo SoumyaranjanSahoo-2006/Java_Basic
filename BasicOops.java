@@ -99,3 +99,27 @@ class StudentMain{
         s1.display();
     }
 }
+
+
+/* Create a class Employee with id and salary.
+Create two objects and display both. */
+
+class Employee{
+    String id;
+    int salary;
+    public void employeeDetails(){
+        System.out.println("The ID of the employee is "+id);
+        System.out.println("The Salary of the employee is "+salary);
+    }
+}
+class EmployeeMain{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        Employee e1= new Employee();
+        System.out.println("Enter Emplooye id: ");
+        e1.id=sc.nextLine();
+        System.out.println("Enter salary: ");
+        e1.salary=sc.nextInt();
+        e1.employeeDetails();
+    }
+}
