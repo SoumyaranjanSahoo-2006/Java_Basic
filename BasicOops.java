@@ -123,3 +123,22 @@ class EmployeeMain{
         e1.employeeDetails();
     }
 }
+
+/* Create a class Book with title and author.
+Write a method to show book details. */
+
+
+class Book{
+    String titel="Srimadd Bhagabata Gita";
+    String author="Jagatnatha Dash";
+    public void bookDetails(){
+        System.out.println("the titel of the book is "+titel);
+        System.out.println("the author  of this book is "+author);
+    }
+}
+class BookMain{
+    public static void main(String[]args){
+        Book b1=new Book();
+        b1.bookDetails();
+    }
+}
