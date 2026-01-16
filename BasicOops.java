@@ -142,3 +142,31 @@ class BookMain{
         b1.bookDetails();
     }
 }
+
+
+/*Create a class Person with a constructor
+ that initializes name and age.*/
+
+class Person{
+    String name;
+    int age;
+    Person( String name, int age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+/*Write a program where constructor prints
+"Object Created Successfully".*/
+
+class Created{
+    
+    Created(){
+        System.out.println("Object Created Successfully.");
+    }
+
+    public static void main(String[]args){
+        Created c1=new Created();
+        
+    }
+}
