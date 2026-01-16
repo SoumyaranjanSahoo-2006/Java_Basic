@@ -167,6 +167,27 @@ class Created{
 
     public static void main(String[]args){
         Created c1=new Created();
-        
+
+    }
+}
+
+/* Create a Rectangle class with 
+constructor to calculate area. */
+
+class Rectangle{
+    
+    int length;
+    int width;
+    int area;
+
+    Rectangle(int length, int width){
+        this.length=length;
+        this.width=width;
+        area= length*width;
+    }
+
+    public static void main(String[]args){
+        Rectangle r1= new Rectangle(10,5);
+        System.out.println("Area of the rectangle is "+r1.area);
     }
 }
