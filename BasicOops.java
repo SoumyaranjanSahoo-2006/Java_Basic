@@ -210,13 +210,31 @@ Create Dog class that inherits Animal. */
 Print bike details.*/
 
 class Vehicle{
+    String brand;
+    int speed;
+
     public void vehicleDetails(){
-        System.out.println("Used for travell purpose.");
+        System.out.println("Brand: "+brand);
+        System.out.println("speed: "+speed);
     }
 }
 class Bike extends Vehicle{
-
+    String model;
+    public void bikeDetails(){
+        vehicleDetails();
+        System.out.println("Model: "+model);
+    }
 }
+class VehicleMain{
+    public static void main(String[]args){
+        Bike b1=new Bike();
+        b1.brand="Hero";
+        b1.speed=100;
+        b1.model="Splender";
+        b1.bikeDetails();
+    }
+}
+
 
 
 
