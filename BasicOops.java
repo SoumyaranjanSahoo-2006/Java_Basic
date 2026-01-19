@@ -191,3 +191,81 @@ class Rectangle{
         System.out.println("Area of the rectangle is "+r1.area);
     }
 }
+
+/*LEVEL 3: Encapsulation (IMPORTANT)
+Create a class BankAccount
+balance should be private
+Use getBalance() and setBalance() */
+
+
+
+
+
+// LEVEL 4: Inheritance
+
+/*Create a class Animal with method eat()
+Create Dog class that inherits Animal. */
+
+/*Create Vehicle class → Bike class
+Print bike details.*/
+
+class Vehicle{
+    public void vehicleDetails(){
+        System.out.println("Used for travell purpose.");
+    }
+}
+class Bike extends Vehicle{
+
+}
+
+
+
+
+/*Create Person class → Student class
+Add extra property course.*/
+
+
+
+
+
+// LEVEL 5: Polymorphism
+// Method Overloading
+
+// Create a class Calculator
+
+// add(int, int)
+
+// add(int, int, int)
+
+// Method Overriding
+
+// Create Shape class with method draw()
+// Override it in Circle class.
+
+// 🔰 LEVEL 6: Abstraction
+
+// Create an abstract class Bank with abstract method getInterestRate()
+// Implement it in SBI class.
+
+// Create an abstract class Vehicle
+// Implement start() in Car and Bike.
+
+// 🔰 LEVEL 7: Interface (Basic)
+
+// Create interface Printable
+// Implement it in Document class.
+
+// Create interface Payment
+// Implement in UPI class.
+
+// 🔥 MINI OOPS CHALLENGE (VERY IMPORTANT)
+
+// Create a Student Management System using:
+
+// Class & Object
+
+// Constructor
+
+// Encapsulation
+
+// Menu driven program
