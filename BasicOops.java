@@ -242,7 +242,31 @@ class VehicleMain{
 /*Create Person class → Student class
 Add extra property course.*/
 
+class Person1{
+    String name;
+    int age;
+    public void personDetails(){
+        System.out.println("Name is "+name);
+        System.out.println("Age is "+age);
+    }
+}
+class Student1 extends Person1{
+    String course;
+    public void studentDetails(){
+        personDetails();
+        System.out.println("Course is "+course);
+    }
+}
+class Student1Main{
+    public static void main(String[]args){
+        Student1 s1=new Student1();
+        s1.name="Soumya";
+        s1.age=20;
+        s1.course="B-tech(CSE)";
+        s1.studentDetails();
 
+    }
+}
 
 
 
