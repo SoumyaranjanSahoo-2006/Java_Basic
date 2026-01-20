@@ -197,14 +197,31 @@ Create a class BankAccount
 balance should be private
 Use getBalance() and setBalance() */
 
+class BankAccount{
+    private double balance;
+    public void setBalance(double balance){
+        this.balance=balance;
+    }
+
+    public double getBalance(){
+        return balance;
+    }
+}
+
+class BankMain{
+    public static void main(String[]args){
+        BankAccount b1= new BankAccount();
+        b1.setBalance(50000);
+
+        System.out.println("Your Account Balanceis "+b1.getBalance());
+    }
+}
+
 
 
 
 
 // LEVEL 4: Inheritance
-
-/*Create a class Animal with method eat()
-Create Dog class that inherits Animal. */
 
 /*Create Vehicle class → Bike class
 Print bike details.*/
