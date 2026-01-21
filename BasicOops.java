@@ -220,6 +220,48 @@ class BankMain{
 
 
 
+//! Create a class Login
+//! private username and password
+//! set and get them safely
+
+
+class Login{
+    private String username;
+    private String password;
+
+    public void setUsername(String username){
+        this.username=username;
+    }
+    public String getUsername(){
+        return username;
+    }
+
+    public void setPassword( String password){
+        if(password.length()>=6){
+            this.password=password;
+        }
+        else{
+            System.out.println("Password must be at least 6 characters");
+        }
+    }
+    public String getPassword(){
+        return "Sorry Password is Hidden";
+    }
+}
+
+class LoginMain{
+    public static void main(String[]args){
+        Login log=new Login();
+
+        log.setUsername("Soumyaranjan");
+        log.setPassword("Somu1");
+
+        System.out.println("Username: "+log.getUsername());
+        System.out.println("Password: "+log.getPassword());
+
+    }
+}
+
 
 // LEVEL 4: Inheritance
 
