@@ -343,7 +343,7 @@ class Student1Main{
 // Create Shape class with method draw()
 // Override it in Circle class.
 
-// 🔰 LEVEL 6: Abstraction
+//  LEVEL 6: Abstraction
 
 // Create an abstract class Bank with abstract method getInterestRate()
 // Implement it in SBI class.
