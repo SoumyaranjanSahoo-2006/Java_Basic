@@ -21,5 +21,3 @@ It is mainly created for **learning, practice, and interview preparation**.
 - Arrays
 - Methods & Constructors
 - Pattern
-
-## From this something will coming
