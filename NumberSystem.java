@@ -45,3 +45,16 @@ class Odd{
         }
     }
 }
+
+
+//To count the digit of number
+
+class CountDigitofEachNumber {
+	public static void main(String[] args) {
+		int count=0;
+		for(int num=1234;num>0;num=num/10) {
+			count++;
+		}
+		System.out.println(count);
+	}
+}
