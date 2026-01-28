@@ -7,8 +7,9 @@ equals()	        Compare strings
 equalsIgnoreCase()	Ignore case
 substring()	        Extract part
 contains()	        Check word
-replace()	        Replace characters*/
-
+replace()	        Replace characters
+concat()            merge two string  
+trim()              used to remove space*/
 
 
 //! reverse a String
@@ -26,7 +27,7 @@ class Reverse{
 
 
 //! Check Palindrome
-
+//Write a Java program to check whether a string is palindrome or not.
 class Palindrome{
     public static void main(String...args){
         String s="madam";
@@ -42,3 +43,5 @@ class Palindrome{
         }
     }
 }
+
+
