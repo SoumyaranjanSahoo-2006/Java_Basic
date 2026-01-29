@@ -42,3 +42,27 @@ class AllEvenOdd{
     }
 }
 
+//! Arrays.to String() ---
+
+class DemoToString{
+    public static void main(String[]args){
+        int a[]={10,20,30,40,50};
+        String res=Arrays.toString(a);
+        System.out.println(res);
+    }
+}
+
+
+//! WAJP to update an element at given index.
+
+class UpdateElement{
+    public static void main(String[]args){
+        int a[]={2,6,8,9,0,4};
+        System.out.println(Arrays.toString(a));
+        m1(a,4,3);
+        System.out.println(Arrays.toString(a));
+    }
+    static void m1(int a[],int index,int newElement){
+        a[index]=newElement;
+    }
+}
