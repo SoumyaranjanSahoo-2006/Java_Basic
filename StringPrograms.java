@@ -45,3 +45,19 @@ class Palindrome{
 }
 
 
+//! WAJP if a string is palindrome show true other wise show false.
+
+class Palindrome1{
+    public static void main(String[]args){
+        String word="malayalam";
+        System.out.println(isPalindrome(word));
+    }
+    static boolean isPalindrome(String s){
+        if(s.length()==0) return true;
+        String reverse="";
+        for(int i=s.length()-1;i>=0;i--){
+            reverse= reverse+s.charAt(i);
+        }
+        return s.equals(reverse);
+    }
+}
