@@ -19,5 +19,5 @@ It is mainly created for **learning, practice, and interview preparation**.
 - Conditional Statements
 - Loops
 - Arrays
-- Methods & Constructor
+- Methods & Constructors
 - Pattern
