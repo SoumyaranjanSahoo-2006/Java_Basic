@@ -4,7 +4,7 @@ import java.util.Arrays;
 //! 1. Write a java program to find sum of all element from an array or by using variable argument method.
 
 class SumOfAllElement{
-    public static void main(String[]args)
+    public static void main(String[]args){
         int a[]={20,50,80,40};
         int res=m1(a);
         System.out.println(res);
