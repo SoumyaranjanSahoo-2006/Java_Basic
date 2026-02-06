@@ -86,7 +86,7 @@ class UpdateValue{
 }
 
 
-//! WAJP to arrange the element  sequence. i/p={1,5,3,7,4,6,10,9},o/p={1,3,4,5,6,7,9,10}
+//! WAJP to arrange the element in sequence. i/p={1,5,3,7,4,6,10,9},o/p={1,3,4,5,6,7,9,10}
 
 class ArrangeElement{
     public static void main(String[]args){
