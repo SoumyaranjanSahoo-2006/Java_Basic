@@ -164,3 +164,5 @@ class ArrayPrime{
         return count==2;
     }
 }
+
+
