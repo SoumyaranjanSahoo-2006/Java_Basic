@@ -77,3 +77,4 @@ class SumOfCharDigit{
         System.out.println(sum);
     }
 }
+/// just a comment
