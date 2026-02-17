@@ -155,7 +155,7 @@ class ArrayPrime{
         }
     }
     static boolean isPrime(int n){
-        if(n<=1) return false
+        if(n<=1) return false;
         int count=0;
         for (int i=1;i<=n;i++){
             if(n%i==0)
@@ -166,3 +166,25 @@ class ArrayPrime{
 }
 
 //resolve
+
+// //! Write a java program to find out all the prime number from a list using stream api 
+// import java.util.*;
+// class PrimeInList{
+//     public static void main (String[]args){
+
+//     }
+// }
+
+
+//! WAJP to delete an element at the first index of arrays.
+class DeleteElementFromIndex{
+    public static void main(String[]args){
+        int a[]={2,3,8,5,9,6,4};
+        int b[]=new int[a.length-1];
+        for (int i=0;i<b.length;i++){
+            b[i]=a[i+1];
+        }
+        a=b;
+        System.out.println(Arrays.toString(a));
+    }
+}
