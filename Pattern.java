@@ -74,3 +74,29 @@ class PrincipalDiagonal {
     }
 }
 
+
+/* Write a Java program to print the following pattern (square with anti-diagonal) using nested loops:
+
+
+*****
+*  **
+* * *
+**  *
+*****        */
+
+
+public class AntiDiagonal {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 5; i++) {
+            for(int j = 1; j <= 5; j++) {
+                if(i == 1 || i == 5 || j == 1 || j == 5 || i + j == 6) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
