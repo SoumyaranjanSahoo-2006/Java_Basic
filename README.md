@@ -1,7 +1,7 @@
 # Java_Basic ☕📘
 
 This repository contains **basic Java programs and concepts** for beginners.
-It is mainly created for **learning, practice,  interview preparation**.
+It is mainly created for **learning, practice, and interview preparation**.
 
 ## 📌 Topics Covered
 - Java Basics (Syntax, Data Types, Operators)
