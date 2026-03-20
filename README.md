@@ -20,4 +20,4 @@ It is mainly created for **learning, practice, and interview preparation**.
 - Loops
 - Arrays
 - Methods & Constructors
-- Pattern
+- 
