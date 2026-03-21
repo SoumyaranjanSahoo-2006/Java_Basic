@@ -6,7 +6,7 @@ It is mainly created for **learning, practice, and interview preparation**.
 ## 📌 Topics Covered
 - Java Basics (Syntax, Data Types, Operators)
 - OOPs Concepts
-  - Class & Object
+  - Class & 
   - Inheritance
   - Polymorphism
   - Encapsulation
