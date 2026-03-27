@@ -17,7 +17,7 @@ It is mainly created for **learning, practice, and interview preparation**.
   - Palindrome Numbers
   - Armstrong Numbers
 - Conditional Statements
-- 
+- Loops
 - Arrays
 - Methods & Constructors
 - Pattern 
